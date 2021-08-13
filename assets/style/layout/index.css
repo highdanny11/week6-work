@@ -4,38 +4,46 @@
   background-size: cover;
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash%20(1).jpg");
 }
+
 .Sign {
   line-height: 21px;
 }
+
 .count {
   font-family: "Roboto";
   padding: 0.15em 0.4em;
 }
+
 .sort-list {
   padding: 14px 0;
   margin-bottom: 0;
   overflow-x: auto;
   white-space: nowrap;
-  &::-webkit-scrollbar{
-    display: none;
-  }
 }
+
+.sort-list::-webkit-scrollbar {
+  display: none;
+}
+
 .sort {
   padding: 1px 16.5px;
   margin-right: 18px;
 }
+
 .sort:hover {
   border-bottom: 1px solid #e31277;
   padding-bottom: 0;
 }
+
 .order-me {
   width: 136px;
 }
-.footer {
-  &-banner {
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
-  }
+
+.footer-banner {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
 }
+
+/*# sourceMappingURL=index.css.map */
