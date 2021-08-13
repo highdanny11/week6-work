@@ -1,0 +1,39 @@
+.like {
+  padding-bottom: 60px;
+  & h2 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+}
+.like-side {
+  &-item {
+    display: flex;
+    flex-direction: column;
+    & h3 {
+      font-size: 20px;
+      line-height: 1.5;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    & p {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 0;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 16px;
+      }
+    }
+    & img {
+      height: 350px;
+      object-fit: cover;
+      margin-bottom: 4px;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}

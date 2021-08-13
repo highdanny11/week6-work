@@ -1,0 +1,152 @@
+---
+title: Boostrap Index
+layout: ./app/checkout.ejs
+engine: ejs
+current: index
+---
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      <div class="w-100 time-line d-flex">
+        <div class="flex-fill">
+          <div class="time-pointe check"></div>
+          <p class="text-center">確認訂單</p>
+        </div>
+        <div class="flex-fill">
+          <div class="time-pointe check"></div>
+          <p class="text-center">填寫訂購資訊</p>
+        </div>
+        <div class="flex-fill">
+          <div class="time-pointe"></div>
+          <p class="text-center">填寫付款資訊</p>
+        </div>
+        <div class="flex-fill">
+          <div class="time-pointe"></div>
+          <p class="text-center">完成訂購</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<main class="container d-flex justify-content-between flex-column wrap">
+  <div class="row">
+    <div class="col-12 col-md-6 order-2 order-md-1">
+      <ul class="list-unstyled pb-7 pb-md-0 mb-0">
+        <li class="row mb-5 gx-md-12 gx-11">
+          <div class="col-6 col-md-4"><img class="img"
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg"
+              alt=""></div>
+          <div class="col-6 col-md-4 d-flex flex-column justify-content-center">
+            <h3 class="mb-1 fw-bold fs-6">2020 台味設計展</h3>
+            <p class="mb-1 fs-6">01 JUN — 31 OCT</p>
+            <div class="d-flex d-md-block align-items-center justify-content-between">
+              <p class="mb-1 fs-6 text-secondary">全票<span class="text-dark fw-bold fs-5 me-1 d-inline d-md-none">1</span></p>
+              <p class="mb-0 fs-5 fw-bold d-block d-md-none">NT$350</p>
+            </div>
+          </div>
+          <div class="d-none col-4 d-md-flex align-items-center justify-content-around">
+            <p class="mb-0 fs-5 fw-bold">NT$350</p>
+            <p class="mb-0 px-3 fw-bold fs-5">1</p>
+          </div>
+        </li>
+        <li class="row mb-5 gx-md-12 gx-11">
+          <div class="col-6 col-md-4"><img class="img"
+            src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg"
+            alt=""></div>
+          <div class="col-6 col-md-4 d-flex flex-column justify-content-center">
+            <h3 class="mb-1 fw-bold fs-6">2020 台味設計展</h3>
+            <p class="mb-1 fs-6">01 JUN — 31 OCT</p>
+            <div class="d-flex d-md-block align-items-center justify-content-between">
+              <p class="mb-1 fs-6 text-secondary">全票<span class="text-dark fw-bold fs-5 me-1 d-inline d-md-none">1</span></p>
+              <p class="mb-0 fs-5 fw-bold d-block d-md-none">NT$350</p>
+            </div>
+          </div>
+          <div class="d-none col-4 d-md-flex align-items-center justify-content-around">
+            <p class="mb-0 fs-5 fw-bold">NT$350</p>
+            <p class="mb-0 px-3 fw-bold fs-5">1</p>
+            
+          </div>
+        </li>
+        <li class="row mb-5 gx-md-12 gx-11">
+          <div class="col-6 col-md-4"><img class="img"
+            src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg"
+            alt=""></div>
+          <div class="col-6 col-md-4 d-flex flex-column justify-content-center">
+            <h3 class="mb-1 fw-bold fs-6">2020 台味設計展</h3>
+            <p class="mb-1 fs-6">01 JUN — 31 OCT</p>
+            <div class="d-flex d-md-block align-items-center justify-content-between">
+              <p class="mb-1 fs-6 text-secondary">全票<span class="text-dark fw-bold fs-5 me-1 d-inline d-md-none">1</span></p>
+              <p class="mb-0 fs-5 fw-bold d-block d-md-none">NT$350</p>
+            </div>
+          </div>
+          <div class="d-none col-4 d-md-flex align-items-center justify-content-around">
+            <p class="mb-0 fs-5 fw-bold">NT$350</p>
+            <p class="mb-0 px-3 fw-bold fs-5">1</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-4 offset-md-2 order-1 order-md-2">
+      <h3 class="mb-4 mb-md-5 fs-5">訂購人資訊</h3>
+      <form action="index.html" method="POST" class="order-info">
+        <div class="mb-5">
+          <label for="email" class="form-label fs-6">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-5">
+          <label for="name" class="form-label fs-6">姓名</label>
+          <input type="text" class="form-control" id="name" placeholder="請輸入姓名">
+        </div>
+        <div class="mb-5">
+          <label for="phone" class="form-label fs-6">聯絡電話</label>
+          <input type="tel" class="form-control" id="phone" placeholder="請輸入電話">
+        </div>
+        <div class="mb-5">
+          <label for="coupon" class="form-label fs-6">優惠碼</label>
+          <input type="email" class="form-control mb-1" id="coupon" placeholder="TG87526">
+          <p class="text-end text-primary fs-7">優惠碼已生效</p>
+        </div>
+      </form>
+      <div class="d-block d-md-none">
+        <div class="d-flex justify-content-between align-items-center w-100 mb-1">
+          <p class="mb-0">小計</p>
+          <p class="mb-0 text-secondary">NT$1050</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center w-100 mb-1">
+          <p class="mb-0">折扣</p>
+          <p class="mb-0 text-secondary">-NT$50</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center w-100 mb-6 mb-md-3">
+          <p class="mb-0 fs-5 fw-bold">總金額</p>
+          <p class="mb-0 fs-5 fw-bold">NT$1000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row gx-md-12 gx-11">
+    <div class="d-none d-md-block col-md-4 offset-8">
+      <div class="d-flex justify-content-between align-items-center w-100 mb-1">
+        <p class="mb-0">小計</p>
+        <p class="mb-0 text-secondary">NT$1050</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center w-100 mb-1">
+        <p class="mb-0">折扣</p>
+        <p class="mb-0 text-secondary">-NT$50</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center w-100 mb-6 mb-md-3">
+        <p class="mb-0 fs-5 fw-bold">總金額</p>
+        <p class="mb-0 fs-5 fw-bold">NT$1000</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-2">
+      <a href="checkout.html" class="w-100 btn btn-outline-primary mb-10">
+        返回
+      </a>
+    </div>
+    <div class="col-6 col-md-4 offset-0 offset-md-6">
+      <a href="checkoutStep2.html" class="w-100 btn btn-danger mb-10">
+        下一步
+      </a>
+    </div>
+  </div>
+</main>

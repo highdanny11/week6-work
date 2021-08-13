@@ -1,0 +1,12 @@
+.img {
+  object-fit: cover;
+  width: 100%;
+}
+.text-indent {
+  text-indent: 32px
+}
+.w-md-100 {
+  @include media-breakpoint-down(md) { 
+    width: 100% !important;
+  }
+}

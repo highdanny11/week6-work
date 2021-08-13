@@ -1,0 +1,68 @@
+.date {
+  word-spacing: 50px;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 65px;
+  @include media-breakpoint-down(md) {
+    font-size: 16px;
+    word-spacing: normal;
+    max-width: 100%;
+  }
+  font-weight: bold;
+}
+.exhibit {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include media-breakpoint-down(md) {
+    padding-top: 20px;
+    padding-bottom: 24px;
+    padding-left: 0;
+    padding-right: 0;
+    & h2 {
+      padding-left: 15px;
+    }
+  }
+  &-wrap {
+    padding-left: 24px;
+    padding-right: 24px;
+    @include media-breakpoint-down(md) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  &-article {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 1.5;
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
+  }
+  &-img {
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    @include media-breakpoint-down(lg) {
+      width: 50%;
+      height: auto;
+    }
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &-main {
+    max-width: 540px;
+    padding-right: 10px;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+  &-title {
+    & .bi-facebook {
+      margin-left: 10px;
+    }
+  }
+}

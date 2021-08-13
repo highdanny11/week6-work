@@ -1,0 +1,60 @@
+.detail {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  @include media-breakpoint-down(md) {
+    padding-top: 44px;
+  }
+  &-img {
+    height: 256px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg);
+  }
+}
+.detail-sale {
+  &-list {
+    margin-top: 24px;
+    @include media-breakpoint-down(md){
+      height: 100%;
+    }
+  }
+  &-number {
+    height: 255px;
+    @include media-breakpoint-down(md){
+      height: auto;
+    }
+  }
+  &-type{
+    height: 255px;
+    @include media-breakpoint-down(md) {
+      height: auto;
+      margin-bottom: 73px;
+    }
+  }
+}
+.number {
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 23px;
+  }
+}
+.line {
+  width: 1px;
+  background-color: #707070;
+}
+.ticket-type-list {
+  top: 120%;
+  left: 50%;
+}
+.ticket-type-list li >a:hover {
+  border-bottom: 1px solid #E31277;
+}
+.article-img {
+  height: 559px;
+  background-size: cover;
+  background-position:cener;
+  background-repeat: no-repeat;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg);
+}
